@@ -1,0 +1,176 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 1.5em/1.38 'Open Sans';
+  color: rgb(34, 34, 34);
+}
+
+.design {
+  position: relative;
+  float: left;
+  z-index: 21;
+  width: 52.8333333333%;
+  height: 550px;
+  margin: 134px 0 0 23.5833333333%;
+}
+
+.design .photo-row-1,
+.design .photo-row-2 {
+  background-color: rgb(220, 255, 227);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 23;
+  width: 100%;
+  height: 135px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  background-color: rgba(255, 255, 255, 0.96);
+}
+
+.header .image {
+  width: 116px;
+  margin: 24px auto 0;
+}
+
+.image {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+
+.instagram {
+  float: left;
+  clear: both;
+  width: 52.8333333333%;
+  height: 550px;
+  margin-left: 23.5833333333%;
+}
+
+.instagram .photo-row-1,
+.instagram .photo-row-2 {
+  background-color: rgb(191, 255, 203);
+}
+
+.music {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 550px;
+  margin-top: 1px;
+}
+
+.photo-row-1 {
+  float: left;
+  width: 100%;
+  height: 213px;
+  margin-top: 43px;
+}
+
+.photo-row-2 {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 213px;
+  margin-top: 45px;
+}
+
+.plr-1 {
+  float: left;
+  width: 52.8333333333%;
+  height: 95px;
+  margin: 16px 0 0 23.5833333333%;
+}
+
+.plr-1 .image {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 23px;
+  margin: -60px 0 0 4.5741324921%;
+}
+
+.plr-1 .text {
+  z-index: 0;
+}
+
+.plr-2 .image {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 7;
+  width: 23px;
+  margin: -60px 0 0 4.5741324921%;
+}
+
+.plr-2 .text {
+  z-index: 6;
+}
+
+.plr-3 .image {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 10;
+  width: 23px;
+  margin: -60px 0 0 4.5741324921%;
+}
+
+.plr-3 .text {
+  z-index: 9;
+}
+
+.plr-4 .image {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 13;
+  width: 23px;
+  margin: -60px 0 0 4.5741324921%;
+}
+
+.plr-4 .text {
+  z-index: 12;
+}
+
+.plr-2,
+.plr-3,
+.plr-4,
+.plr-5 {
+  float: left;
+  clear: both;
+  width: 52.8333333333%;
+  height: 95px;
+  margin: 10px 0 0 23.5833333333%;
+}
+
+.plr-5 .image {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 15;
+  width: 23px;
+  margin: -60px 0 0 4.5741324921%;
+}
+
+.plr-5 .text {
+  z-index: 16;
+}
+
+.text {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 95px;
+  margin-top: 1px;
+  padding: 28px 25px 25px 85px;
+  border-top: 2px solid rgb(158, 158, 158);
+  font-size: 1em;
+  line-height: 1.38;
+  letter-spacing: 7px;
+  color: rgb(34, 34, 34);
+}
